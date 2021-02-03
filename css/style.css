@@ -4,6 +4,10 @@ body{
     font-family: "Times New Roman", sans-serif;
 }
 
+intro{
+    padding: 25px;
+}        
+
 h1{
     font-size: 64px;
     padding: 10px;
