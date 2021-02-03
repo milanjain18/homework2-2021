@@ -20,13 +20,9 @@ h2{
 img{
     align-content:center;
     width: 550px;
-    /* display: block; */
-    /* left: 50%; how do I center in one line of code?? */
-    /* Images can be a little tricky, what CSS parameter can we use to make sure it’s always on its own line?
-Automatically centering elements seems hard but you really only need 1 line of code! Do you remember what it is? */
     display: block;
-    margin-left: auto;
-    margin-right: auto
+    margin: auto;
+
 
 }
 
@@ -35,39 +31,43 @@ p{
     padding-top: 15px;
 }
 
+div{
+    padding: 25px;
+    min-height: 150px;
+}
+
 #red{
     background:#FF0000;
-    padding: 25px;
     text-align: right;
-    min-height: 150px;
 
 }
 
 #blue{
     background: #0000FF;
-    padding: 25px;
     text-align: left;
-    min-height: 150px;
 
 
 }
 
 #yellow{
     background: #FFFF00;
-    color:#000000;
-    padding: 25px;
+    /* color:#000000; */
     text-align: right;
-    min-height: 150px;
 
+}
 
+#yellow h2{
+    color: #000000;
+    text-shadow: 4px 4px 2px #c7e2c7;
+}
+
+#yellow p{
+    color: #000000;
 }
 
 #green{
     background: #008000;
-    padding: 25px;
     text-align: left;
-    min-height: 150px;
-
 
 
 }
