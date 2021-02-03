@@ -4,10 +4,6 @@ body{
     font-family: "Times New Roman", sans-serif;
 }
 
-intro{
-    padding: 25px;
-}        
-
 h1{
     font-size: 64px;
     padding: 10px;
@@ -30,6 +26,7 @@ p{
     background:#FF0000;
     padding: 25px;
     text-align: right;
+    height: 150px;
 
 }
 
@@ -37,6 +34,8 @@ p{
     background: #0000FF;
     padding: 25px;
     text-align: left;
+    height: 150px;
+
 
 }
 
@@ -45,6 +44,8 @@ p{
     color:#000000;
     padding: 25px;
     text-align: right;
+    height: 150px;
+
 
 }
 
@@ -52,6 +53,14 @@ p{
     background: #008000;
     padding: 25px;
     text-align: left;
+    height: 150px;
 
 
+
+}
+
+footer{
+    text-align: center;
+    padding-bottom: 10px;
+    padding-right: 10px;
 }
